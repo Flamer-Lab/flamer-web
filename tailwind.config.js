@@ -6,13 +6,13 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'roboto': ['Roboto Condensed', 'sans-serif']
+        'firasans': ['Fira Sans', 'sans-serif']
       },
     },
   },
   plugins: [require("daisyui")],
   daisyui: {
-    themes: ["light"],
+    themes: ["dark"],
   },
 }
 
